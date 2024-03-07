@@ -1,6 +1,8 @@
 print("請輸入要確認是否為偶數的數")
 x=int(input("要檢查的數:"))
-if x%2==0:
-  print(str(x),"為偶數")
-else:
-  print(str(x),"為奇數")
+while True:
+  if x%2==0:
+    print(str(x),"為偶數")
+    break
+  else:
+    print(str(x),"為奇數")
