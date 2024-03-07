@@ -1,12 +1,12 @@
 print("您好，尊貴的客戶，我們在收集客戶的資料，希望您可以配合填寫")
-x1=str(input("請輸入您的姓名:"))
+name=str(input("請輸入您的姓名:"))
 while True:
   try:
-    x2=int(input("請輸入您的年齡:"))
+    age=int(input("請輸入您的年齡:"))
     break
   except:
     print("輸入錯誤，請輸入數字")
-    x2=int(input("請輸入您的年齡:"))
-x3=float(input("請輸入您的身高(公尺計算):"))
-x4=str(input("請輸入您喜好的顏色:"))
-print(x1,",",x2,"歲",",",x3,"公尺",",","您喜好的顏色是:",x4)
+    age=int(input("請輸入您的年齡:"))
+height=float(input("請輸入您的身高(公尺計算):"))
+color=str(input("請輸入您喜好的顏色:"))
+print(name,",",age,"歲",",",height,"公尺",",","您喜好的顏色是:",color)
